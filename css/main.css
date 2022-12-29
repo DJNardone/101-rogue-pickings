@@ -1,0 +1,153 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+header {
+    height: 100px;
+}
+
+#gallery #menu, #reviews, #location {
+    height: 230px;
+}
+
+#content {
+    height: 100px;
+}
+  
+/***** GRID *****/  
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+} 
+
+.third-width {
+    width: 398px;
+    margin: 0 auto;
+    float: left;
+}
+  
+/***** HEADER *****/  
+header h1 {
+    padding: 15px 0 10px 0px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    text-transform: uppercase;
+} 
+
+header h1 span {
+    color: #77a466;
+}
+  
+nav {
+    float: right;
+    padding: 30px 10px;
+    word-spacing: 12px;
+} 
+
+nav ul li {
+    display: inline-block;
+}  
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: #77a466;
+    padding-left: 10px;
+}
+  
+/***** ABOUT *****/
+.full-width #banner {
+    border-top: 4px solid #77a466;
+    border-bottom: 4px solid #77a466;
+    background-color: #77a466;
+}
+  
+#about h2 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #77a466;
+    padding-top: 10px;
+}
+  
+#about p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin: 0px 15px 25px 0px;
+}
+  
+/***** GALLERY *****/  
+#gallery .full-width {
+    border-top: 1px solid #dedbdc;
+}
+  
+#menu, #reviews {
+    border-right: 1px solid #dedbdc;
+}
+  
+#gallery h3 {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+  
+#gallery ul {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #77a466;
+    padding-left: 0px;
+    line-height: 45px;
+}
+  
+#gallery p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 0 30px 0 30px;  
+}
+  
+#gallery h4 {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 0 30px;
+    line-height: 0px;
+}
+  
+#reviews h3, #locations h3 {
+    padding-left: 30px;
+}
+  
+/***** CONTENT *****/  
+#content .full-width{
+    border-top: 1px solid #dedbdc;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0px;
+}
+  
+#content h3 span {
+    font-family: 'Galada', cursive;
+    font-size: 18px;
+    font-weight: 400;
+    color: #77a466;
+    text-transform: lowercase;
+}
+  
